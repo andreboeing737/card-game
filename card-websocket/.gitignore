@@ -1,0 +1,7 @@
+# IDE
+.idea
+.vscode/
+workspace.code-workspace
+
+# NODE
+node_modules/

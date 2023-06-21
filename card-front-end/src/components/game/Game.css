@@ -1,0 +1,118 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .waiting-form {
+    background-color: white;
+    padding: 4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .game-form {
+    background-image: url("game-bg.jpg");
+    min-height: 500px;
+    width: 300px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .card-form {
+    width: 235px;
+    height: 50%;
+    position: fixed;
+    bottom: 0;
+    padding: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    width: 150px;
+    height: 200px;
+    background-color: #01d28e;
+    color: black;
+    cursor: pointer;
+  }
+
+  .card-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+
+  .next-button {
+    background-color: deepskyblue;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .current-reader {
+    color: red !important;
+  }
+
+  .waiting-order-text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
